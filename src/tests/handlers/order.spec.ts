@@ -64,6 +64,8 @@ describe('Order Handler', () => {
       it('index orders', async function () {
         const response = await req
           .get('/orders/')
+          .set('Authorization', `Bearer ${token}`)
+
         expect(response.status).toEqual(200)
       })
 
