@@ -58,3 +58,6 @@ Start app with `npm run start` or `npm run watch`
 ## Run all the tests
 
 `npm run testEnv`
+
+<img src='https://user-images.githubusercontent.com/75043063/201090860-93f401aa-ee4a-42cf-bf81-d254e9904bd2.png'>
+
