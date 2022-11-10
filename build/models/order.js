@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.OrderStore = void 0;
 const database_1 = __importDefault(require("../database"));
 class OrderStore {
-    /*******************************/
     async index() {
         try {
             const sql = 'SELECT * FROM orders';

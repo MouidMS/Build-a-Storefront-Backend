@@ -61,8 +61,6 @@ describe('Test User Model', () => {
     expect(result[0].firstname).toEqual("mouid");
     expect(result[0].lastname).toEqual("mohamed");
 
-
-    
   });
 
   it('check if have correct users', async () => {

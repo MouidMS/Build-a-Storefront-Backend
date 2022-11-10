@@ -21,17 +21,15 @@ var verifyToken = function (req, _res, next) {
                 next();
             }
             else {
-                // Failed to authenticate user.
                 _res.status(401);
-                _res.json("Access denied, token it's not currect");
+                _res.json("Access denied, token it's invalide");
                 return;
             }
         }
     }
     catch (err) {
-        // Failed to authenticate user.
         _res.status(401);
-        _res.json("Access denied, token it's not currect");
+        _res.json("Access denied, token it's invalide");
         return;
     }
 };

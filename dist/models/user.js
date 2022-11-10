@@ -64,7 +64,7 @@ var UserStore = /** @class */ (function () {
                         return [2 /*return*/, result.rows];
                     case 3:
                         err_1 = _a.sent();
-                        throw new Error("Can not found users. ".concat(err_1));
+                        throw new Error("Can not get users. ".concat(err_1));
                     case 4: return [2 /*return*/];
                 }
             });

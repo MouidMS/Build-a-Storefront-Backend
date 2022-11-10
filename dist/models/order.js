@@ -55,7 +55,6 @@ var database_1 = __importDefault(require("../database"));
 var OrderStore = /** @class */ (function () {
     function OrderStore() {
     }
-    /*******************************/
     OrderStore.prototype.index = function () {
         return __awaiter(this, void 0, void 0, function () {
             var sql, connection, result, err_1;
