@@ -56,7 +56,8 @@ describe('Order Handler', () => {
     });
     it('index orders', async function () {
         const response = await req
-            .get('/orders/');
+            .get('/orders/')
+            .set('Authorization', `Bearer ${exports.token}`);
         expect(response.status).toEqual(200);
     });
     it('add product to order', async function () {
