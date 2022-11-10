@@ -69,7 +69,6 @@ describe('User Handler', () => {
             username: 'fahad_xd',
             password: '1234',
           })
-          .set('Authorization', `Bearer ${token}`)
           expect(response.status).toEqual(200)
       })
 

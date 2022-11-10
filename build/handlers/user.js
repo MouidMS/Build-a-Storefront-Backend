@@ -89,7 +89,7 @@ const authenticate = async (req, res) => {
 };
 function user_routes(app) {
     app.get('/users', verify_token_1.verifyToken, index);
-    app.post('/users/create', verify_token_1.verifyToken, create);
+    app.post('/users/create', create);
     app.get('/users/:id', verify_token_1.verifyToken, show);
     app.put('/users/:id', verify_token_1.verifyToken, update);
     app.delete('/users/:id', verify_token_1.verifyToken, deleteUser);

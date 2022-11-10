@@ -110,7 +110,7 @@ const addProductToOrder = async (req, res) => {
     }
 };
 function order_routes(app) {
-    app.get('/orders', index);
+    app.get('/orders', verify_token_1.verifyToken, index);
     app.post('/orders/create', verify_token_1.verifyToken, create);
     app.post("/orders/products", verify_token_1.verifyToken, addProductToOrder);
     app.get("/orders/:userId", verify_token_1.verifyToken, showOrdersByUser);

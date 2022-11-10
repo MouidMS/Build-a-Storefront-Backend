@@ -118,7 +118,7 @@ const addProductToOrder = async(req: Request,res: Response): Promise <void> => {
 }
 
 export default function order_routes(app: Application) {
-  app.get('/orders', index);
+  app.get('/orders',verifyToken, index);
   app.post('/orders/create', verifyToken, create); 
   app.post("/orders/products", verifyToken, addProductToOrder)
   app.get("/orders/:userId", verifyToken, showOrdersByUser); 

@@ -92,7 +92,7 @@ const authenticate = async (req: Request, res: Response) => {
 
 export default function user_routes(app: Application) {
   app.get('/users', verifyToken, index);
-  app.post('/users/create', verifyToken,create);
+  app.post('/users/create',create);
   app.get('/users/:id', verifyToken, show);
   app.put('/users/:id', verifyToken, update);
   app.delete('/users/:id', verifyToken, deleteUser);

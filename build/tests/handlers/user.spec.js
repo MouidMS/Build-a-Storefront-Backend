@@ -60,8 +60,7 @@ describe('User Handler', () => {
             lastname: 'ahmed',
             username: 'fahad_xd',
             password: '1234',
-        })
-            .set('Authorization', `Bearer ${exports.token}`);
+        });
         expect(response.status).toEqual(200);
     });
     it('update user', async function () {
