@@ -59,5 +59,5 @@ Start app with `npm run start` or `npm run watch`
 
 `npm run testEnv`
 
-<img src='https://user-images.githubusercontent.com/75043063/201090860-93f401aa-ee4a-42cf-bf81-d254e9904bd2.png'>
+<img src='https://user-images.githubusercontent.com/75043063/201091472-6be8ffd1-7d2c-4d4f-8eee-57a0a5e51298.png'>
 
