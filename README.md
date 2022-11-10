@@ -9,7 +9,7 @@ install all packages in this project.
 
 ## Set up Database:
 
-when you `npm install` to install all dependencies db-migrate up to set up the database and get access via http://127.0.0.1:5432 npm run start to build the app and running
+when you `npm install` to install all dependencies db-migrate up to set up the database and get access via http://127.0.0.1:3000 npm run start to build the app and running
 
 Also You need the following modules and dependencies installed to run this project:
 
